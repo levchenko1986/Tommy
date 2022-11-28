@@ -46,6 +46,24 @@
     z-index: 1;*/
     background: linear-gradient(180deg, #000000 0.04%, rgba(255, 255, 255, 0) 200%);
   }
+  .logo-wrapper {
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+  }
+  .logo-img {
+    width: 40px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .logo-img:hover {
+    transform: scale(1.2);
+  }
+  .logo-text {
+    color: #FFFFFF;
+    margin-left: 15px;
+  }
   .header-socials-block {
     position: relative;
     margin-left: auto;
@@ -186,25 +204,14 @@ transform: translateY(-100%); */
   margin-right: auto;
   padding-left: 104px;
 }
-.logo-img {
-  margin-left: 130px;
-  margin-top: 50px;
-  margin-right: auto;
-  width: 200px;
-  height: 300px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.logo-img:hover {
-  transform: scale(1.2);
-}
+
 
 .hero-block {
 
 }
 .hero-h2 {
   color: #fff;
-  margin-top: 300px;
+  margin-top: 550px;
   margin-left: 20px;
   max-width: 400px;
   text-align: center;
