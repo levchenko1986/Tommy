@@ -290,8 +290,17 @@ figure.slider figure figcaption {
 }
 /* ===========ABOUT=========== */
 .about-container{
+  display: inline-block;
   padding: 30px 104px 30px 104px;
   text-align: center;
+}
+.delivery-img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.customs-img {
+  float: right;
 }
 .about-container-text {
   text-align: left;
@@ -301,16 +310,18 @@ figure.slider figure figcaption {
   font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 120%;
+line-height: 150%;
 /* or 19px */
 
-text-align: center;
 letter-spacing: 0.005em;
 
 /* Light/Text Color/Body 1 */
 
 
 
+}
+.customs-text {
+  text-align: start;
 }
 /* =========SLIDER2======== */
 
