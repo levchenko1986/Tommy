@@ -91,7 +91,7 @@
   }
   .header-social-list {
     background-color: #fff;
-    padding-top: 3px;
+    padding: 3px 3px 0 3px;
     border-radius: 3px;
   }
   .header-container {
