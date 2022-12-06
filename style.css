@@ -584,28 +584,56 @@ letter-spacing: 0.005em;
   color: var(--text-grey);
 }
 /* ===========WE=========== */
+.we {
+  background: linear-gradient(to right, rgba(47,48,58,0.9), rgba(47,48,58,0.6)), url(./img/we.JPG);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+}
+.we-h1 {
+text-align: center;
+color: #fff;
+margin-top: 20px;
+}
 .we-container{
-  display: inline-block;
-  padding: 30px 104px 30px 104px;
-  text-align: center;
+  padding: 30px 74px 30px 124px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  /* text-align: center; */
+
+
 }
 
 .icon-we {
-  margin-right: 15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 .we-item-wrap {
-  display: flex;
-  align-items: center;
+  width: 215px;
+  height: 534px;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 30px * 5) / 5);
+  border: #92929D solid 2px;
+  padding: 15px;
 }
+
 .we-container-text {
-  text-align: left;
+
 }
 .we-text {
   max-width: 1000px;
-  color: #92929D;
+  color: #fff;
   font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 18px;
 line-height: 150%;
 /* or 19px */
 
