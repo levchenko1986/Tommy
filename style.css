@@ -251,7 +251,7 @@ max-width: 520px;
   display: flex;
   justify-content: space-between;
   padding-right: 104px;
-  padding-left: 74px;
+  padding-left: 104px;
   width: 100%;
 }
 
@@ -666,11 +666,16 @@ flex-shrink: 0;
 
 
 .footer {
-  background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 130%);
-  padding-left: 104px;
-  padding-right: 104px;
+  background: linear-gradient(to right, rgba(47,48,58,0.9), rgba(47,48,58,0.6)), url(./img/chrysler-300c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 130%); */
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.footer-container {
+/* .footer-container {
   display: flex;
   padding-bottom: 60px;
 }
@@ -693,7 +698,7 @@ flex-shrink: 0;
 font-weight: 600;
 font-size: 14px;
 line-height: 130%;
-/* or 18px */
+
 letter-spacing: 0.008em;
 }
 
@@ -718,7 +723,7 @@ letter-spacing: 0.008em;
 font-weight: 600;
 font-size: 14px;
 line-height: 130%;
-/* or 18px */
+
 letter-spacing: 0.008em;
 }
 .footer-rightside-list {
@@ -739,7 +744,7 @@ letter-spacing: 0.008em;
 font-weight: 600;
 font-size: 14px;
 line-height: 130%;
-/* or 18px */
+
 letter-spacing: 0.008em;
 }
 .footer-rightside2-tel {
@@ -756,7 +761,7 @@ letter-spacing: 0.008em;
   font-weight: 600;
   font-size: 14px;
   line-height: 130%;
-  /* or 18px */
+
   letter-spacing: 0.008em;
   margin-right: 10px;
 }
@@ -765,8 +770,7 @@ letter-spacing: 0.008em;
   font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 130%;
-/* or 18px */
+
 
 letter-spacing: 0.008em;
 }
@@ -779,9 +783,56 @@ letter-spacing: 0.008em;
 font-weight: 600;
 font-size: 14px;
 line-height: 130%;
-/* or 18px */
+
 
 letter-spacing: 0.008em;
+} */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer-leftside {
+  text-align: center;
+
+}
+.contact-wrapper {
+  max-width: 400px;
+}
+.number-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4b8baa;
+}
+.footer-tel-text {
+  color: #ffffff;
+  font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+.footer-viber {
+  margin-top: 10px;
+  text-align: center;
+  max-width: 80px;
+  background-color: #4b8baa;
+}
+.footer-social-link {
+}
+.icon-svg {
+}
+.footer-img-wrap {
+  margin-top: 10px;
+  max-width: 400px;
+  height: 200px;
+  background-color: #000000;
+}
+.footer-img {
+  object-fit: contain;
+}
+.footer-name {
+}
+.footer-rightside {
+  text-align: center;
 }
 .order {
   display: block;
@@ -812,11 +863,14 @@ letter-spacing: 0.008em;
 
 .modal {
   position: absolute;
+  display: flex;
+  justify-content: space-around;
   top: 50%;
   left: 50%;
+  padding: 50px;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  width: 1000px;
+  height: 500px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
