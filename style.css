@@ -855,6 +855,7 @@ font-size: 14px;
   max-width: 400px;
   height: 200px;
   background-color: #000000;
+  border-radius: 5px;
 }
 .footer-img {
   object-fit: contain;
