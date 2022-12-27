@@ -448,9 +448,16 @@ letter-spacing: 0.005em;
   background-color: transparent;
   padding: 0 0 30px 0;
 }
+
 .swiper-container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.swiper-container-auto_1 {
+  max-width: 800px;
+  margin-left: 100px;
+  /* margin: 0 auto; */
+  /* text-align: center; */
 }
 .image-slider__wrapper {
   justify-content: space-between;
@@ -458,10 +465,18 @@ letter-spacing: 0.005em;
   padding-left: 5px;
   padding-right: 5px;
 }
+.image-slider-auto_1__wrapper {
+  justify-content: space-between;
+  min-width: 160px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 650px;
+}
 .swiper-wrapper {
+
 }
 .image-slider__slide {
-
+  height: 650px;
 }
 .swiper-slide {
   padding-left: 5px;
@@ -487,6 +502,21 @@ letter-spacing: 0.005em;
 }
 .swiper-button-next {
   --swiper-theme-color: #111213;
+}
+.swiper-button-prev-auto_1 {
+  padding-top: 100px;
+  margin-left: 295px;
+  --swiper-theme-color: #111213;
+}
+.swiper-button-next-auto_1 {
+  padding-top: 100px;
+  margin-right: 725px;
+  --swiper-theme-color: #111213;
+}
+.auto_1-text {
+  position: absolute;
+  top: 400px;
+  right: 450px;
 }
 /* ==========GALLERY=========== */
 .container-projects {
